@@ -3,6 +3,15 @@
 This is an E2E test for Gmail using Cucumber and Protractor. This tools were implemented togheter to provide a better comprehenson of what the test do.
 
 While Cucumber js provides a better comprehension in human language. Protrator do all the work from behind.
+
+### Actions supported
+* Login
+* Create Email
+* Add CC and BCC receivers
+* Send Email
+* Access Email (verify the email sent)
+* Select the firt elemen on inbox
+* [X] Delete selected mail - unable the delete due some conflict with other element in the dom (See bugs/docs/delete-bug.docx)
 ## Getting Started
 
 You will have available this project to run on your local machine for development and testing purposes. 
