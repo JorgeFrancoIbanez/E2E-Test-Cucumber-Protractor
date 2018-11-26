@@ -11,10 +11,9 @@ Before(function(){
     logoutSpecPage.init();
 })
 
-When('The user {string} remain loged in', {timeout: 30 * 1000}, async function (userName) {
-    await browser.wait(EC.titleContains(userName), 20000, "wait for inbox");
+When('The user clicks on profile button', {timeout: 20 * 1000}, async function () {
     await browser.wait(EC.visibilityOf(logoutSpecPage.getUserButton()), 20000);
-    await logoutSpecPage.clickUperUserButton()
+    await logoutSpecPage.clickUperUserButton();
 });
 
 Then('Attempt to log out from inbox', {timeout: 30 * 1000}, async function () {

@@ -1,7 +1,8 @@
 module.exports = {
     init: () => {
         browser.waitForAngularEnabled(false);
-        uperUserButton = element(by.xpath('//*[@id="gb"]/div[2]/div[3]/div/div[2]/div/a/span'));
+        uperUserButton = element(by.css('span[class="gb_ab gbii"]'));
+        // uperUserButton = element(by.xpath('//*[@id="gb"]/div[2]/div[3]/div/div[2]/div/a/span'));
         userLogout= element(by.id('gb_71'));
     },
     clickUperUserButton: () => {
