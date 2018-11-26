@@ -7,12 +7,19 @@ While Cucumber js provides a better comprehension in human language. Protrator d
 
 You will have available this project to run on your local machine for development and testing purposes. 
 ### Prerequisites
-* Install [Node.js](https://nodejs.org/)
+* Install [Node.js](https://nodejs.org/) and npm (comes with Node.js)
 * Install Protractor globally: 
 ```
 npm install -g protractor
 ```
 This will install two command line tools, protractor and webdriver-manager. Try running protractor --version to make sure it's working.
+
+#### Install packages with npm
+```
+npm install
+```
+
+#### Install packages manually 
 
 * Install and update the helper that download the browsers and instance of Selenium Server: 
 ```
