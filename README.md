@@ -102,9 +102,9 @@ exports.config = {
 ```
 
 
-### [what are the features?](https://www.tutorialspoint.com/cucumber/cucumber_features.htm)
-### [What are the spec files](https://angular.io/guide/testing#test-file-name-and-location)
-### What are the page files:
+### what are the features?[Link](https://www.tutorialspoint.com/cucumber/cucumber_features.htm)
+### What are the spec files?[Link](https://angular.io/guide/testing#test-file-name-and-location)
+### What are the page files?
 This are our abstraction of the DOM elements on the web application.
 
 ## Running the tests
