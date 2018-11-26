@@ -14,13 +14,6 @@ npm install -g protractor
 ```
 This will install two command line tools, protractor and webdriver-manager. Try running protractor --version to make sure it's working.
 
-#### Install packages with npm
-```
-npm install
-```
-
-#### Install packages manually 
-
 * Install and update the helper that download the browsers and instance of Selenium Server: 
 ```
 webdriver-manager update
@@ -29,6 +22,14 @@ webdriver-manager update
 ```
 webdriver-manager start.
 ```
+
+#### Install packages with npm
+```
+npm install
+```
+
+#### Install packages manually 
+
 * Install cucumber 
 ```
 npm install — save-dev cucumber
