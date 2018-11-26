@@ -16,7 +16,6 @@ module.exports = {
         inbox = element(by.css('div[class="TN bzz aHS-bnt"]'));
         listMail = element.all(by.css('div[class="oZ-jc T-Jo J-J5-Ji "]'));
         deleteButton = element.all(by.css(`div[class="ar9 T-I-J3 J-J5-Ji"]`));
-        // deleteButton = element.all(by.css(`div[class="asa"]`));
         principalTab = element(by.css('div[class="aAy J-KU-KO aIf-aLe"]'));
     },
     clickBCC: () => {
@@ -52,11 +51,6 @@ module.exports = {
     },
     getComposeButton: () => {
         return composeButton;
-    },
-    getDeleteButton: () => {
-        deleteButton.then(function(list){
-            return list[1]
-        });
     },
     getInputTo: () => {
         return inputTo;
